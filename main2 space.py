@@ -12,10 +12,13 @@ length=len(hangmanWord)
 #create a list for blanks and hangmanWord so that it would be easier to run calculations in code
 for i in range(length):
     blanks.append("_")
-    correct.append(hangmanWord[i])
+    correct.append(hangmanWord[i]) #appended file
     #for more than one words
     if correct[i]==" ": 
         blanks[i]=" "
+
+
+
 
 
 #different actions for correct or wrong guess
