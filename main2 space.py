@@ -73,7 +73,7 @@ def main():
         #user can't input more than 1 letter and also can't press Enter without guessing anything
         singleDigit=True
         while singleDigit==True:
-            myLetter=input("\nEnter your letter: ").lower()
+            myLetter=input("\nEnter your letter: ").lower().strip()
             if len(myLetter)!=1 or myLetter==" " or myLetter.isalpha()==False:
                 print("Invalid input | Try again !!")
             else:
