@@ -74,7 +74,7 @@ def main():
         singleDigit=True
         while singleDigit==True:
             myLetter=input("\nEnter your letter: ").lower()
-            if len(myLetter)!=1 or myLetter==" ":
+            if len(myLetter)!=1 or myLetter==" " or myLetter.isalpha()==False:
                 print("Invalid input | Try again !!")
             else:
                 singleDigit=False
