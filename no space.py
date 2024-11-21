@@ -101,17 +101,3 @@ def main():
         if counter==7:
             gameActive=False 
 main()
-        
-    
-    
-    
-
-
-
-
-
-                
-            
-
-
-
